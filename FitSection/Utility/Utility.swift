@@ -18,9 +18,8 @@ func readJson(jsonFileName:String) -> Data? {
 
 let defaultStory = "Main"
 let dietArray = ["Vegan","Meat based","Vegeterian"]
-let allergies = []
 
-enum DietType: String,CaseIterable {
+public enum DietType: String,CaseIterable {
     case vegan = "Vegan"
     case meatBased = "Meat based"
     case veg = "Vegeterian"

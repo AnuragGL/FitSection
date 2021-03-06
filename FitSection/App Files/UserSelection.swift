@@ -7,8 +7,3 @@
 
 import Foundation
 
-class UserPref {
-    static let shared = UserPref(forType: DietType)
-    let dietPref: DietType
-    let allergy = 
-}

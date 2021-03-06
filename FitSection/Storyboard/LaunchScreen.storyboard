@@ -10,29 +10,33 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fit Meal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddS-Oc-biv">
-                                <rect key="frame" x="171" y="435.5" width="72" height="25.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daxkoLaunch" translatesAutoresizingMaskIntoConstraints="NO" id="o5P-qb-zjw">
+                                <rect key="frame" x="32" y="305" width="350" height="286"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="GM9-kn-5HW"/>
+                                    <constraint firstAttribute="height" constant="286" id="ntw-9L-1Un"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ddS-Oc-biv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5OQ-yf-W2S"/>
-                            <constraint firstItem="ddS-Oc-biv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="byb-29-DN7"/>
+                            <constraint firstItem="o5P-qb-zjw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C5H-th-5uc"/>
+                            <constraint firstItem="o5P-qb-zjw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dkI-uN-aKT"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="daxkoLaunch" width="800" height="600"/>
+    </resources>
 </document>

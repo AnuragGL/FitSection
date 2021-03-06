@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEE9465025F350B6009E22C1 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9464F25F350B6009E22C1 /* SplashVC.swift */; };
 		AEEE68CF25F3492C00183EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68CE25F3492C00183EC7 /* Assets.xcassets */; };
 		AEEE68FD25F349AE00183EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FA25F349AD00183EC7 /* LaunchScreen.storyboard */; };
 		AEEE68FE25F349AE00183EC7 /* Recipies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FB25F349AE00183EC7 /* Recipies.storyboard */; };
@@ -35,6 +36,7 @@
 		1110EC2F55619757F077C39E /* Pods_FitSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.release.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.release.xcconfig"; sourceTree = "<group>"; };
 		3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.debug.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE9464F25F350B6009E22C1 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		AEEE68C225F3492B00183EC7 /* FitSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEE68CE25F3492C00183EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEEE68D325F3492C00183EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +81,6 @@
 				3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */,
 				1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +114,7 @@
 		AEEE68C425F3492B00183EC7 /* FitSection */ = {
 			isa = PBXGroup;
 			children = (
+				AEE9464F25F350B6009E22C1 /* SplashVC.swift */,
 				AEEE68F925F3499A00183EC7 /* Storyboard */,
 				AEEE68F825F3499400183EC7 /* Controller */,
 				AEEE68F725F3498F00183EC7 /* Extension */,
@@ -374,6 +376,7 @@
 				AEEE691025F349EC00183EC7 /* CustomReciepeViewModel.swift in Sources */,
 				AEEE690D25F349E800183EC7 /* DaxkoFitFood.swift in Sources */,
 				AEEE690825F349E100183EC7 /* Utility.swift in Sources */,
+				AEE9465025F350B6009E22C1 /* SplashVC.swift in Sources */,
 				AEEE692D25F34A4A00183EC7 /* RecipielnfoVC.swift in Sources */,
 				AEEE692725F34A4100183EC7 /* MoreRecipiesCollectionViewCell.swift in Sources */,
 			);

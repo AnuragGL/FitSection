@@ -24,3 +24,28 @@ public enum DietType: String,CaseIterable {
     case meatBased = "Meat based"
     case veg = "Vegeterian"
 }
+
+public enum HealthConditions: String,CaseIterable {
+    case thyroid = "Thyroid"
+    case hbp = "High blood pressure"
+    case pcod = "PCOD"
+    case diabetes = "Diabetes"
+    case sleepDisorder = "Sleep disorder"
+    case lactoseIntolerence = "Lactose intolerence"
+    case eggs = "Egg allergy"
+    case nutAllergy = "Nut allergy"
+    case peanuts = "Peanut allergy"
+    case shellfish = "Shellfish allergy"
+    case wheat = "Glutton allergy"
+    case soy = "Soy allergy"
+    case fish = "Fish allergy"
+}
+
+//Cow’s Milk
+//Eggs
+//Tree Nuts
+//Peanuts
+//Shellfish
+//Wheat
+//Soy
+//Fish

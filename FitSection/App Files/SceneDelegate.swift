@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  FitSection
-//
-//  Created by Anurag Kashyap on 06/03/21.
-//
 
 import UIKit
 

@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEEE68C625F3492B00183EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE68C525F3492B00183EC7 /* AppDelegate.swift */; };
-		AEEE68C825F3492B00183EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE68C725F3492B00183EC7 /* SceneDelegate.swift */; };
-		AEEE68CA25F3492B00183EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE68C925F3492B00183EC7 /* ViewController.swift */; };
-		AEEE68CD25F3492B00183EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68CB25F3492B00183EC7 /* Main.storyboard */; };
 		AEEE68CF25F3492C00183EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68CE25F3492C00183EC7 /* Assets.xcassets */; };
-		AEEE68D225F3492C00183EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68D025F3492C00183EC7 /* LaunchScreen.storyboard */; };
+		AEEE68FD25F349AE00183EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FA25F349AD00183EC7 /* LaunchScreen.storyboard */; };
+		AEEE68FE25F349AE00183EC7 /* Recipies.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FB25F349AE00183EC7 /* Recipies.storyboard */; };
+		AEEE68FF25F349AE00183EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FC25F349AE00183EC7 /* Main.storyboard */; };
+		AEEE690425F349D600183EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE690225F349D600183EC7 /* AppDelegate.swift */; };
+		AEEE690525F349D600183EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE690325F349D600183EC7 /* SceneDelegate.swift */; };
+		AEEE690825F349E100183EC7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE690725F349E100183EC7 /* Utility.swift */; };
+		AEEE690C25F349E800183EC7 /* DaxkoFitMealCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE690A25F349E800183EC7 /* DaxkoFitMealCategoryModel.swift */; };
+		AEEE690D25F349E800183EC7 /* DaxkoFitFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE690B25F349E800183EC7 /* DaxkoFitFood.swift */; };
+		AEEE691025F349EC00183EC7 /* CustomReciepeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE690F25F349EC00183EC7 /* CustomReciepeViewModel.swift */; };
+		AEEE691325F349F800183EC7 /* MealFit.json in Resources */ = {isa = PBXBuildFile; fileRef = AEEE691225F349F800183EC7 /* MealFit.json */; };
+		AEEE691625F349FC00183EC7 /* UiViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE691525F349FC00183EC7 /* UiViewController+Extensions.swift */; };
+		AEEE691E25F34A3400183EC7 /* RecipiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE691D25F34A3400183EC7 /* RecipiesVC.swift */; };
+		AEEE692125F34A3800183EC7 /* Recipies+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE692025F34A3800183EC7 /* Recipies+Extensions.swift */; };
+		AEEE692425F34A3D00183EC7 /* RecipiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE692325F34A3D00183EC7 /* RecipiesTableViewCell.swift */; };
+		AEEE692725F34A4100183EC7 /* MoreRecipiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE692625F34A4100183EC7 /* MoreRecipiesCollectionViewCell.swift */; };
+		AEEE692A25F34A4600183EC7 /* RecipieInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE692925F34A4600183EC7 /* RecipieInfoTableViewCell.swift */; };
+		AEEE692D25F34A4A00183EC7 /* RecipielnfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE692C25F34A4A00183EC7 /* RecipielnfoVC.swift */; };
+		AEEE693225F34A6900183EC7 /* AddDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE693025F34A6900183EC7 /* AddDetailsTableViewCell.swift */; };
+		AEEE693325F34A6900183EC7 /* AddDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE693125F34A6900183EC7 /* AddDetailsViewController.swift */; };
+		AEEE693625F34A7100183EC7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AEEE693525F34A7100183EC7 /* Podfile */; };
+		D95B5B55CE3B0174AEF9B81E /* Pods_FitSection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1110EC2F55619757F077C39E /* Pods_FitSection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1110EC2F55619757F077C39E /* Pods_FitSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.release.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.release.xcconfig"; sourceTree = "<group>"; };
+		3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.debug.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.debug.xcconfig"; sourceTree = "<group>"; };
 		AEEE68C225F3492B00183EC7 /* FitSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEEE68C525F3492B00183EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEEE68C725F3492B00183EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEEE68C925F3492B00183EC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AEEE68CC25F3492B00183EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEEE68CE25F3492C00183EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEEE68D125F3492C00183EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEEE68D325F3492C00183EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEE68FA25F349AD00183EC7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEEE68FB25F349AE00183EC7 /* Recipies.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Recipies.storyboard; sourceTree = "<group>"; };
+		AEEE68FC25F349AE00183EC7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AEEE690125F349D500183EC7 /* FitSection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitSection-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEEE690225F349D600183EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEEE690325F349D600183EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEEE690725F349E100183EC7 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AEEE690A25F349E800183EC7 /* DaxkoFitMealCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaxkoFitMealCategoryModel.swift; sourceTree = "<group>"; };
+		AEEE690B25F349E800183EC7 /* DaxkoFitFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaxkoFitFood.swift; sourceTree = "<group>"; };
+		AEEE690F25F349EC00183EC7 /* CustomReciepeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomReciepeViewModel.swift; sourceTree = "<group>"; };
+		AEEE691225F349F800183EC7 /* MealFit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MealFit.json; sourceTree = "<group>"; };
+		AEEE691525F349FC00183EC7 /* UiViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiViewController+Extensions.swift"; sourceTree = "<group>"; };
+		AEEE691D25F34A3400183EC7 /* RecipiesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipiesVC.swift; sourceTree = "<group>"; };
+		AEEE692025F34A3800183EC7 /* Recipies+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipies+Extensions.swift"; sourceTree = "<group>"; };
+		AEEE692325F34A3D00183EC7 /* RecipiesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipiesTableViewCell.swift; sourceTree = "<group>"; };
+		AEEE692625F34A4100183EC7 /* MoreRecipiesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreRecipiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEEE692925F34A4600183EC7 /* RecipieInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipieInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AEEE692C25F34A4A00183EC7 /* RecipielnfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipielnfoVC.swift; sourceTree = "<group>"; };
+		AEEE693025F34A6900183EC7 /* AddDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		AEEE693125F34A6900183EC7 /* AddDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailsViewController.swift; sourceTree = "<group>"; };
+		AEEE693525F34A7100183EC7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95B5B55CE3B0174AEF9B81E /* Pods_FitSection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DC9EFE3A4228F9B02D484FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */,
+				1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7959FA8BCB26D908724340E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1110EC2F55619757F077C39E /* Pods_FitSection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEEE68B925F3492B00183EC7 = {
 			isa = PBXGroup;
 			children = (
+				AEEE693525F34A7100183EC7 /* Podfile */,
 				AEEE68C425F3492B00183EC7 /* FitSection */,
 				AEEE68C325F3492B00183EC7 /* Products */,
+				0DC9EFE3A4228F9B02D484FF /* Pods */,
+				7959FA8BCB26D908724340E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,134 @@
 		AEEE68C425F3492B00183EC7 /* FitSection */ = {
 			isa = PBXGroup;
 			children = (
-				AEEE68C525F3492B00183EC7 /* AppDelegate.swift */,
-				AEEE68C725F3492B00183EC7 /* SceneDelegate.swift */,
-				AEEE68C925F3492B00183EC7 /* ViewController.swift */,
-				AEEE68CB25F3492B00183EC7 /* Main.storyboard */,
+				AEEE68F925F3499A00183EC7 /* Storyboard */,
+				AEEE68F825F3499400183EC7 /* Controller */,
+				AEEE68F725F3498F00183EC7 /* Extension */,
+				AEEE68F625F3498B00183EC7 /* JSON */,
+				AEEE68F525F3498500183EC7 /* View Model */,
+				AEEE68F425F3498000183EC7 /* Model */,
+				AEEE68F225F3497A00183EC7 /* Utility */,
+				AEEE68F125F3497200183EC7 /* App Files */,
 				AEEE68CE25F3492C00183EC7 /* Assets.xcassets */,
-				AEEE68D025F3492C00183EC7 /* LaunchScreen.storyboard */,
 				AEEE68D325F3492C00183EC7 /* Info.plist */,
 			);
 			path = FitSection;
+			sourceTree = "<group>";
+		};
+		AEEE68F125F3497200183EC7 /* App Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE690225F349D600183EC7 /* AppDelegate.swift */,
+				AEEE690325F349D600183EC7 /* SceneDelegate.swift */,
+				AEEE690125F349D500183EC7 /* FitSection-Bridging-Header.h */,
+			);
+			path = "App Files";
+			sourceTree = "<group>";
+		};
+		AEEE68F225F3497A00183EC7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE690725F349E100183EC7 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		AEEE68F425F3498000183EC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE690B25F349E800183EC7 /* DaxkoFitFood.swift */,
+				AEEE690A25F349E800183EC7 /* DaxkoFitMealCategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEEE68F525F3498500183EC7 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE690F25F349EC00183EC7 /* CustomReciepeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		AEEE68F625F3498B00183EC7 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE691225F349F800183EC7 /* MealFit.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		AEEE68F725F3498F00183EC7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE691525F349FC00183EC7 /* UiViewController+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AEEE68F825F3499400183EC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE692F25F34A5100183EC7 /* Measurements */,
+				AEEE691825F34A0700183EC7 /* Food */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEEE68F925F3499A00183EC7 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE68FA25F349AD00183EC7 /* LaunchScreen.storyboard */,
+				AEEE68FC25F349AE00183EC7 /* Main.storyboard */,
+				AEEE68FB25F349AE00183EC7 /* Recipies.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AEEE691825F34A0700183EC7 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE691C25F34A2900183EC7 /* Nutritional Info */,
+				AEEE691B25F34A2400183EC7 /* List */,
+				AEEE691A25F34A1F00183EC7 /* Home */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		AEEE691A25F34A1F00183EC7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE691D25F34A3400183EC7 /* RecipiesVC.swift */,
+				AEEE692025F34A3800183EC7 /* Recipies+Extensions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AEEE691B25F34A2400183EC7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE692325F34A3D00183EC7 /* RecipiesTableViewCell.swift */,
+				AEEE692625F34A4100183EC7 /* MoreRecipiesCollectionViewCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		AEEE691C25F34A2900183EC7 /* Nutritional Info */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE692C25F34A4A00183EC7 /* RecipielnfoVC.swift */,
+				AEEE692925F34A4600183EC7 /* RecipieInfoTableViewCell.swift */,
+			);
+			path = "Nutritional Info";
+			sourceTree = "<group>";
+		};
+		AEEE692F25F34A5100183EC7 /* Measurements */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE693025F34A6900183EC7 /* AddDetailsTableViewCell.swift */,
+				AEEE693125F34A6900183EC7 /* AddDetailsViewController.swift */,
+			);
+			path = Measurements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEEE68D625F3492C00183EC7 /* Build configuration list for PBXNativeTarget "FitSection" */;
 			buildPhases = (
+				99CA15CFE902C7802E681480 /* [CP] Check Pods Manifest.lock */,
 				AEEE68BE25F3492B00183EC7 /* Sources */,
 				AEEE68BF25F3492B00183EC7 /* Frameworks */,
 				AEEE68C025F3492B00183EC7 /* Resources */,
+				D236DE26B720D732F159373A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +276,7 @@
 				TargetAttributes = {
 					AEEE68C125F3492B00183EC7 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -124,45 +303,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEEE68D225F3492C00183EC7 /* LaunchScreen.storyboard in Resources */,
+				AEEE693625F34A7100183EC7 /* Podfile in Resources */,
 				AEEE68CF25F3492C00183EC7 /* Assets.xcassets in Resources */,
-				AEEE68CD25F3492B00183EC7 /* Main.storyboard in Resources */,
+				AEEE68FE25F349AE00183EC7 /* Recipies.storyboard in Resources */,
+				AEEE68FD25F349AE00183EC7 /* LaunchScreen.storyboard in Resources */,
+				AEEE68FF25F349AE00183EC7 /* Main.storyboard in Resources */,
+				AEEE691325F349F800183EC7 /* MealFit.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99CA15CFE902C7802E681480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitSection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D236DE26B720D732F159373A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitSection/Pods-FitSection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitSection/Pods-FitSection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitSection/Pods-FitSection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEEE68BE25F3492B00183EC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEEE68CA25F3492B00183EC7 /* ViewController.swift in Sources */,
-				AEEE68C625F3492B00183EC7 /* AppDelegate.swift in Sources */,
-				AEEE68C825F3492B00183EC7 /* SceneDelegate.swift in Sources */,
+				AEEE693325F34A6900183EC7 /* AddDetailsViewController.swift in Sources */,
+				AEEE693225F34A6900183EC7 /* AddDetailsTableViewCell.swift in Sources */,
+				AEEE691E25F34A3400183EC7 /* RecipiesVC.swift in Sources */,
+				AEEE690425F349D600183EC7 /* AppDelegate.swift in Sources */,
+				AEEE691625F349FC00183EC7 /* UiViewController+Extensions.swift in Sources */,
+				AEEE690525F349D600183EC7 /* SceneDelegate.swift in Sources */,
+				AEEE692125F34A3800183EC7 /* Recipies+Extensions.swift in Sources */,
+				AEEE692A25F34A4600183EC7 /* RecipieInfoTableViewCell.swift in Sources */,
+				AEEE692425F34A3D00183EC7 /* RecipiesTableViewCell.swift in Sources */,
+				AEEE690C25F349E800183EC7 /* DaxkoFitMealCategoryModel.swift in Sources */,
+				AEEE691025F349EC00183EC7 /* CustomReciepeViewModel.swift in Sources */,
+				AEEE690D25F349E800183EC7 /* DaxkoFitFood.swift in Sources */,
+				AEEE690825F349E100183EC7 /* Utility.swift in Sources */,
+				AEEE692D25F34A4A00183EC7 /* RecipielnfoVC.swift in Sources */,
+				AEEE692725F34A4100183EC7 /* MoreRecipiesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AEEE68CB25F3492B00183EC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEEE68CC25F3492B00183EC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AEEE68D025F3492C00183EC7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEEE68D125F3492C00183EC7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AEEE68D425F3492C00183EC7 /* Debug */ = {
@@ -283,9 +500,11 @@
 		};
 		AEEE68D725F3492C00183EC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FitSection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,6 +513,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appattack.FitSection.FitSection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitSection/App Files/FitSection-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,9 +522,11 @@
 		};
 		AEEE68D825F3492C00183EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FitSection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +535,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appattack.FitSection.FitSection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FitSection/App Files/FitSection-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B5E2A325F360FD00DF21CD /* DietPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2A225F360FD00DF21CD /* DietPref.swift */; };
+		23B5E2B025F370C700DF21CD /* FoodPrefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2AF25F370C700DF21CD /* FoodPrefCell.swift */; };
+		23B5E2C825F37B4B00DF21CD /* UserSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2C725F37B4B00DF21CD /* UserSelection.swift */; };
 		AEE9465025F350B6009E22C1 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9464F25F350B6009E22C1 /* SplashVC.swift */; };
 		AEEE68CF25F3492C00183EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68CE25F3492C00183EC7 /* Assets.xcassets */; };
 		AEEE68FD25F349AE00183EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FA25F349AD00183EC7 /* LaunchScreen.storyboard */; };
@@ -35,6 +38,9 @@
 /* Begin PBXFileReference section */
 		1110EC2F55619757F077C39E /* Pods_FitSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.release.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.release.xcconfig"; sourceTree = "<group>"; };
+		23B5E2A225F360FD00DF21CD /* DietPref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPref.swift; sourceTree = "<group>"; };
+		23B5E2AF25F370C700DF21CD /* FoodPrefCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPrefCell.swift; sourceTree = "<group>"; };
+		23B5E2C725F37B4B00DF21CD /* UserSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelection.swift; sourceTree = "<group>"; };
 		3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.debug.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.debug.xcconfig"; sourceTree = "<group>"; };
 		AEE9464F25F350B6009E22C1 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		AEEE68C225F3492B00183EC7 /* FitSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +88,15 @@
 				1E9EA1C9143E9D6240662F7A /* Pods-FitSection.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		23B5E2A125F360CF00DF21CD /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				23B5E2A225F360FD00DF21CD /* DietPref.swift */,
+				23B5E2AF25F370C700DF21CD /* FoodPrefCell.swift */,
+			);
+			path = Survey;
 			sourceTree = "<group>";
 		};
 		7959FA8BCB26D908724340E3 /* Frameworks */ = {
@@ -135,6 +150,7 @@
 				AEEE690225F349D600183EC7 /* AppDelegate.swift */,
 				AEEE690325F349D600183EC7 /* SceneDelegate.swift */,
 				AEEE690125F349D500183EC7 /* FitSection-Bridging-Header.h */,
+				23B5E2C725F37B4B00DF21CD /* UserSelection.swift */,
 			);
 			path = "App Files";
 			sourceTree = "<group>";
@@ -183,6 +199,7 @@
 		AEEE68F825F3499400183EC7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				23B5E2A125F360CF00DF21CD /* Survey */,
 				AEEE692F25F34A5100183EC7 /* Measurements */,
 				AEEE691825F34A0700183EC7 /* Food */,
 			);
@@ -364,17 +381,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEE693325F34A6900183EC7 /* AddDetailsViewController.swift in Sources */,
+				23B5E2A325F360FD00DF21CD /* DietPref.swift in Sources */,
 				AEEE693225F34A6900183EC7 /* AddDetailsTableViewCell.swift in Sources */,
 				AEEE691E25F34A3400183EC7 /* RecipiesVC.swift in Sources */,
 				AEEE690425F349D600183EC7 /* AppDelegate.swift in Sources */,
 				AEEE691625F349FC00183EC7 /* UiViewController+Extensions.swift in Sources */,
 				AEEE690525F349D600183EC7 /* SceneDelegate.swift in Sources */,
 				AEEE692125F34A3800183EC7 /* Recipies+Extensions.swift in Sources */,
+				23B5E2B025F370C700DF21CD /* FoodPrefCell.swift in Sources */,
 				AEEE692A25F34A4600183EC7 /* RecipieInfoTableViewCell.swift in Sources */,
 				AEEE692425F34A3D00183EC7 /* RecipiesTableViewCell.swift in Sources */,
 				AEEE690C25F349E800183EC7 /* DaxkoFitMealCategoryModel.swift in Sources */,
 				AEEE691025F349EC00183EC7 /* CustomReciepeViewModel.swift in Sources */,
 				AEEE690D25F349E800183EC7 /* DaxkoFitFood.swift in Sources */,
+				23B5E2C825F37B4B00DF21CD /* UserSelection.swift in Sources */,
 				AEEE690825F349E100183EC7 /* Utility.swift in Sources */,
 				AEE9465025F350B6009E22C1 /* SplashVC.swift in Sources */,
 				AEEE692D25F34A4A00183EC7 /* RecipielnfoVC.swift in Sources */,
@@ -510,6 +530,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FitSection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -532,6 +553,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FitSection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

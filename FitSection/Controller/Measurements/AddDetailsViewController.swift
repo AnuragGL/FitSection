@@ -25,13 +25,13 @@ class AddDetailsViewController: UIViewController{
     }
     
     @IBAction func nextButtonAction(_ sender: UIButton) {
-        pushNavigationController(storyBoardName: recipiesStroryBoardName, viewControllerIdentifier: recipiesVC, caseValue: 3)
+        pushNavigationController(storyBoardName: defaultStory, viewControllerIdentifier: "DietPref", caseValue: 3)
     }
     
     
     func pushNavigationController(storyBoardName : String, viewControllerIdentifier: String, caseValue : Int) {
-        let vc = UIStoryboard.init(name: storyBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: viewControllerIdentifier) as? RecipiesVC
-        self.navigationController?.pushViewController(vc!, animated: true)
+        let vc = UIStoryboard.init(name: storyBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: viewControllerIdentifier)
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
 }

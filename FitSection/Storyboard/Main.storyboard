@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Measurments-->
+        <!--Measurements-->
         <scene sceneID="cr2-tU-x5H">
             <objects>
                 <viewController storyboardIdentifier="AddDetailsViewController" id="ttX-23-S1Q" customClass="AddDetailsViewController" customModule="FitSection" customModuleProvider="target" sceneMemberID="viewController">
@@ -148,7 +148,7 @@
                             <constraint firstItem="b2f-j6-IEX" firstAttribute="top" secondItem="nJD-g6-v3C" secondAttribute="top" id="kvA-v5-H44"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Measurments" id="aGU-HN-378"/>
+                    <navigationItem key="navigationItem" title="Measurements" id="aGU-HN-378"/>
                     <connections>
                         <outlet property="tableView" destination="b2f-j6-IEX" id="6kh-tI-6i7"/>
                     </connections>
@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="1192.753623188406" y="81.696428571428569"/>
         </scene>
-        <!--Diet Prefrence-->
+        <!--Diet Preference-->
         <scene sceneID="mFU-ec-Vrp">
             <objects>
-                <viewController storyboardIdentifier="DietPref" title="Diet Prefrence" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oAg-99-MsH" customClass="DietPref" customModule="FitSection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DietPref" title="Diet Preference" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oAg-99-MsH" customClass="DietPref" customModule="FitSection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="meI-Gu-P6S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,9 +312,9 @@
                                 </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmE-EI-z17">
-                                <rect key="frame" x="147" y="753" width="120" height="32"/>
+                                <rect key="frame" x="132" y="753" width="150" height="32"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="rhG-0e-Etq"/>
+                                    <constraint firstAttribute="width" constant="150" id="rhG-0e-Etq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                 <state key="normal" title="Get your meal"/>
@@ -343,7 +343,7 @@
                             <constraint firstItem="M0s-Pc-DOq" firstAttribute="bottom" secondItem="Olg-r3-o63" secondAttribute="bottom" constant="70" id="xM4-8t-b3e"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="s1g-qP-cMX"/>
+                    <navigationItem key="navigationItem" title="Health issues and allergies" id="s1g-qP-cMX"/>
                     <connections>
                         <outlet property="issuesView" destination="Olg-r3-o63" id="UUS-Qi-avX"/>
                         <outlet property="showMealButton" destination="NmE-EI-z17" id="gBn-G2-51A"/>

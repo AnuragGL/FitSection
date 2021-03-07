@@ -29,8 +29,19 @@ class CustomReciepeViewModel {
         return FoodArray
     }
     
-    func parseJsonData() {
-        guard let dataOfJson =  readJson(jsonFileName: "MealFit") else {return}
+    func parseJsonData(forMealType: DietType) {
+        var fileName = ""
+        switch  forMealType {
+        case .vegan:
+            fileName = "MealFit"
+            break
+        case .meatBased:
+            fileName = "MealFit_NonVeg"
+            break
+        default:
+            fileName = "Vegeterian"
+        }
+        guard let dataOfJson =  readJson(jsonFileName: fileName) else {return}
         do {
             let decoder = JSONDecoder()
             self.customReciepeArray = try decoder.decode([DaxkoFit].self, from: dataOfJson)

@@ -11,6 +11,8 @@
 		23B5E2B025F370C700DF21CD /* FoodPrefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2AF25F370C700DF21CD /* FoodPrefCell.swift */; };
 		23B5E2C825F37B4B00DF21CD /* UserSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2C725F37B4B00DF21CD /* UserSelection.swift */; };
 		23B5E2E925F3846300DF21CD /* HealthIssueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5E2E825F3846300DF21CD /* HealthIssueVC.swift */; };
+		23B5E31F25F49FFD00DF21CD /* MealFit_NonVeg.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B5E31E25F49FFD00DF21CD /* MealFit_NonVeg.json */; };
+		23B5E32225F4A5D300DF21CD /* Vegeterian.json in Resources */ = {isa = PBXBuildFile; fileRef = 23B5E32125F4A5D300DF21CD /* Vegeterian.json */; };
 		AEE9465025F350B6009E22C1 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9464F25F350B6009E22C1 /* SplashVC.swift */; };
 		AEEE68CF25F3492C00183EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68CE25F3492C00183EC7 /* Assets.xcassets */; };
 		AEEE68FD25F349AE00183EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEE68FA25F349AD00183EC7 /* LaunchScreen.storyboard */; };
@@ -43,6 +45,8 @@
 		23B5E2AF25F370C700DF21CD /* FoodPrefCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPrefCell.swift; sourceTree = "<group>"; };
 		23B5E2C725F37B4B00DF21CD /* UserSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelection.swift; sourceTree = "<group>"; };
 		23B5E2E825F3846300DF21CD /* HealthIssueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthIssueVC.swift; sourceTree = "<group>"; };
+		23B5E31E25F49FFD00DF21CD /* MealFit_NonVeg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MealFit_NonVeg.json; sourceTree = "<group>"; };
+		23B5E32125F4A5D300DF21CD /* Vegeterian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Vegeterian.json; sourceTree = "<group>"; };
 		3E28F48567CC77D182782A30 /* Pods-FitSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitSection.debug.xcconfig"; path = "Target Support Files/Pods-FitSection/Pods-FitSection.debug.xcconfig"; sourceTree = "<group>"; };
 		AEE9464F25F350B6009E22C1 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		AEEE68C225F3492B00183EC7 /* FitSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +190,8 @@
 		AEEE68F625F3498B00183EC7 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				23B5E32125F4A5D300DF21CD /* Vegeterian.json */,
+				23B5E31E25F49FFD00DF21CD /* MealFit_NonVeg.json */,
 				AEEE691225F349F800183EC7 /* MealFit.json */,
 			);
 			path = JSON;
@@ -326,8 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEE693625F34A7100183EC7 /* Podfile in Resources */,
+				23B5E32225F4A5D300DF21CD /* Vegeterian.json in Resources */,
 				AEEE68CF25F3492C00183EC7 /* Assets.xcassets in Resources */,
 				AEEE68FE25F349AE00183EC7 /* Recipies.storyboard in Resources */,
+				23B5E31F25F49FFD00DF21CD /* MealFit_NonVeg.json in Resources */,
 				AEEE68FD25F349AE00183EC7 /* LaunchScreen.storyboard in Resources */,
 				AEEE68FF25F349AE00183EC7 /* Main.storyboard in Resources */,
 				AEEE691325F349F800183EC7 /* MealFit.json in Resources */,

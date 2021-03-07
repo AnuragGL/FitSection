@@ -39,6 +39,7 @@ class DietPref: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.cellForRow(at: indexPath) as! FoodPrefCell
         cell.dietType.textColor = themeColor
         cell.dietType.layer.borderColor = themeColor.cgColor
+        UserSelecetion.shared.dietType = DietType.init(rawValue: cell.dietType.text!) ?? DietType.vegan
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {

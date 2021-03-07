@@ -16,6 +16,7 @@ class AddDetailsTableViewCell: UITableViewCell {
     
     var weightArray = Array(25...130)
     var heightArray = Array(80...400)
+    var neckArray = Array(14...26)
     var genderArray = ["Male","Female"]
     var ageArray = Array(10...90)
     
@@ -62,7 +63,7 @@ class AddDetailsTableViewCell: UITableViewCell {
 
             heightDropDown.selectionAction = {(index: Int, item: String) in
               print("Selected item: \(item) at index: \(index)")
-                self.descriptionTF.text = item + " " + "cm"
+                self.descriptionTF.text = item + " " + "inches"
                 if self.descriptionTF.text != "" {
                     print("1: \("Filled")")
 
@@ -113,7 +114,7 @@ class AddDetailsTableViewCell: UITableViewCell {
             neckDropDown.width = descriptionTF.frame.width
             neckDropDown.anchorView = descriptionTF
             neckDropDown.direction = .bottom
-            neckDropDown.dataSource = weightArray.map {String($0)}
+            neckDropDown.dataSource = neckArray.map {String($0)}
 
             neckDropDown.selectionAction = {(index: Int, item: String) in
               print("Selected item: \(item) at index: \(index)")

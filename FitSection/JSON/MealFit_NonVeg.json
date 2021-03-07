@@ -1,0 +1,137 @@
+[
+    {
+        "name":"Breakfast",
+        "food":[
+            {
+                "id":1,
+                "name":"Omlette",
+                "calories":"105 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://everydaydishes.com/wp-content/uploads/2014/08/american-style-omelet-recipe-everydaydishes_com-H.jpg"
+            },
+            {
+                "id":2,
+                "name":"French Toast",
+                "calories":"180 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://www.ju.st/sites/default/files/hero/frenchytoast-dsk.jpg"
+            },
+            {
+                "id":3,
+                "name":"Bacon & Scrambled Eggs",
+                "calories":"280 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://www.sheknows.com/wp-content/uploads/2018/08/xxx7u0plc7rnglgvjfdt.jpeg?w=849"
+            },
+            {
+                "id":4,
+                "name":"Steak & Eggs",
+                "calories":"340 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://healthyrecipesblogs.com/wp-content/uploads/2013/02/steak-and-eggs1-1.jpg"
+            },
+            {
+                "id":5,
+                "name":"Smoked salmon sandwich",
+                "calories":"300 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://www.jocooks.com/wp-content/uploads/2014/07/smoked-salmon-sandwiches-1.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Lunch",
+        "food":[
+            {
+                "id":1,
+                "name":"Taco Stuffed Shells",
+                "calories":"290 cal",
+                "allergy":"beef",
+                "foodType" : "non-veg",
+                "image_url":"https://www.spendwithpennies.com/wp-content/uploads/2019/10/Taco-Stuffed-Shells-SpendWithPennies-9.jpg"
+            },
+            {
+                "id":2,
+                "name":"Grilled Chicken Cobb Salad",
+                "calories":"378 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://s23209.pcdn.co/wp-content/uploads/2019/04/Grilled-Chicken-Cobb-SaladIMG_9150-600x900.jpg?p=30720"
+            },
+            {
+                "id":3,
+                "name":"Sausage & Bean Stew",
+                "calories":"459 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://images.immediate.co.uk/production/volatile/sites/2/2016/03/21887.jpg?quality=90&resize=768,574"
+            },
+            {
+                "id":4,
+                "name":"Lemon Chicken Pasta",
+                "calories":"216 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://natashaskitchen.com/wp-content/uploads/2019/07/Lemon-Chicken-Pasta-6.jpg"
+            },
+            {
+                "id":5,
+                "name":"Shrimp & Veggie Stir Fry",
+                "calories":"232 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://sparkpeo.hs.llnwd.net/e1/resize/300m300/e2/guid/Shrimp-&-Veggie-Stirfry-w-a-Twist/f9718340-3992-4d96-bc2f-a826a1a7d101.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Dinner",
+        "food":[
+            {
+                "id":1,
+                "name":"Curried Tuna Salad",
+                "calories":"300 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://sparkpeo.hs.llnwd.net/e1/resize/300m300/e4/nw/6/3/l636602200.jpg"
+            },
+            {
+                "id":2,
+                "name":"Pork Chops Stuffed with Feta & Spinach",
+                "calories":"260 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://sparkpeo.hs.llnwd.net/e1/resize/300m300/e2/guid/Pork-Chops-Stuffed-with-Feta-and-Spinach/798c6226-887f-4869-ab67-04c0bc9fa75d.jpg"
+            },
+            {
+                "id":3,
+                "name":"Zuchhini Sausage Casserole",
+                "calories":"110 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://sparkpeo.hs.llnwd.net/e1/resize/630m620/e4/nw/1/9/l190568528.jpg"
+            },
+            {
+                "id":4,
+                "name":"Cream Cheese Chilli Chicken",
+                "calories":"301 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://sparkpeo.hs.llnwd.net/e1/resize/300m300/e4/nw/7/5/l754200603.jpg"
+            },
+            {
+                "id":5,
+                "name":"Chicken Chorizo Traybake",
+                "calories":"521 cal",
+                "allergy":"none",
+                "foodType" : "non-veg",
+                "image_url":"https://realfood.tesco.com/media/images/RFO-1400x919-Chicken--chorizo-traybake-c59d3ea9-801b-4c16-a7d8-3daff70f65c5-0-1400x919.jpg"
+            }
+        ]
+    }
+]

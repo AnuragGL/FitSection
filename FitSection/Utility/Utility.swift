@@ -24,6 +24,9 @@ public enum DietType: String,CaseIterable {
     case vegan = "Vegan"
     case meatBased = "Meat based"
     case veg = "Vegeterian"
+    var currentVal: String {
+        return self.rawValue
+    }
 }
 
 public enum HealthConditions: String,CaseIterable {
@@ -43,3 +46,11 @@ public enum HealthConditions: String,CaseIterable {
 }
 
 let themeColor = UIColor.init(red: 29/255, green: 129/255, blue: 240/255, alpha: 1)
+
+class UserSelecetion  {
+    static let shared = UserSelecetion(fortype: .veg)
+    init(fortype: DietType) {
+        dietType = fortype
+    }
+    var dietType: DietType
+}

@@ -75,7 +75,7 @@ class RecipiesVC: Recipies_Extensions {
     
     func initialSetUp() {
         self.viewModel.delegate = self
-        viewModel.parseJsonData()
+        viewModel.parseJsonData(forMealType: UserSelecetion.shared.dietType)
         tableView.tableFooterView = UIView()
     }
     

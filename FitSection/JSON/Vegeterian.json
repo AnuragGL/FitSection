@@ -1,0 +1,137 @@
+[
+    {
+        "name":"Breakfast",
+        "food":[
+            {
+                "id":1,
+                "name":"Veggie Breakfast Tacos",
+                "calories":"314 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2014/07/veggie-breakfast-tacos-1.jpg"
+            },
+            {
+                "id":2,
+                "name":"Caramelized Banana Dark Chocolate Oatmeal",
+                "calories":"404 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://livelytable.com/wp-content/uploads/2017/02/caramelized-banana-chocolate-oatmeal-6.jpg"
+            },
+            {
+                "id":3,
+                "name":"Chickpea Flour Pancakes",
+                "calories":"253 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://hurrythefoodup.com/wp-content/uploads/2017/02/Chickpea-Pancakes-Besan-7.jpg"
+            },
+            {
+                "id":4,
+                "name":"Dutch Apple Pancakes",
+                "calories":"477 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://hurrythefoodup.com/wp-content/uploads/2017/08/Dutch-Apple-Pancake.jpg"
+            },
+            {
+                "id":5,
+                "name":"Rhubarb-Mango Oatmeal",
+                "calories":"285 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://www.oatandsesame.com/wp-content/uploads/2016/07/Rhubarb-Mango-Oatmeal.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Lunch",
+        "food":[
+            {
+                "id":1,
+                "name":"Extra Vegetable Fried Rice",
+                "calories":"400 cal",
+                "allergy":"None",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2017/05/vegetable-fried-rice.jpg"
+            },
+            {
+                "id":2,
+                "name":"Best Lentil Soup",
+                "calories":"366 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2019/01/best-lentil-soup-recipe-4-768x1154.jpg"
+            },
+            {
+                "id":3,
+                "name":"Crispy Falafel",
+                "calories":"420 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2018/05/falafel-salad-768x1147.jpg"
+            },
+            {
+                "id":4,
+                "name":"Peanut Slaw with Soba Noodles",
+                "calories":"265 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2014/01/peanut-soba-noodles-slaw-768x1151.jpg"
+            },
+            {
+                "id":5,
+                "name":"Pinto Posole",
+                "calories":"382 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2018/04/pinto-posole-recipe-768x1151.jpg"
+            }
+        ]
+    },
+    {
+        "name":"Dinner",
+        "food":[
+            {
+                "id":1,
+                "name":"Vegetable Paella",
+                "calories":"437 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2017/10/best-vegetable-paella-recipe-2-768x1151.jpg"
+            },
+            {
+                "id":2,
+                "name":"Best Vegetable Lasagna",
+                "calories":"335 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2017/12/best-vegetable-lasagna-recipe-3-768x1151.jpg"
+            },
+            {
+                "id":3,
+                "name":"Roasted Cauliflower and Lentil Tacos with Creamy Chipotle Sauce",
+                "calories":"566 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2018/08/roasted-cauliflower-lentil-tacos-3-768x1056.jpg"
+            },
+            {
+                "id":4,
+                "name":"Black Bean Sweet Potato Enchiladas",
+                "calories":"550 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2011/03/baked-sweet-potato-enchiladas-3-768x1151.jpg"
+            },
+            {
+                "id":5,
+                "name":"Roasted Cauliflower and Farro Salad with Feta and Avocado",
+                "calories":"496 cal",
+                "allergy":"none",
+                "foodType" : "veg",
+                "image_url":"https://cookieandkate.com/images/2014/04/Roasted-Cauliflower-and-Farro-Salad-recipe-768x1154.jpg"
+            }
+        ]
+    }
+]

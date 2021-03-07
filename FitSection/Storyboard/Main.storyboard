@@ -263,7 +263,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Olg-r3-o63">
-                                <rect key="frame" x="20" y="100" width="374" height="698"/>
+                                <rect key="frame" x="20" y="100" width="374" height="638"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="0.0" id="FIW-4N-UBe">
                                     <size key="itemSize" width="128" height="60"/>
@@ -311,22 +311,42 @@
                                     <outlet property="delegate" destination="KdJ-EF-9qp" id="9dP-cl-Ano"/>
                                 </connections>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmE-EI-z17">
+                                <rect key="frame" x="147" y="753" width="120" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="rhG-0e-Etq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <state key="normal" title="Get your meal"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="goToMeal:" destination="KdJ-EF-9qp" eventType="touchUpInside" id="X8s-7g-Eap"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M0s-Pc-DOq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="iY4-Bf-MUx" firstAttribute="centerX" secondItem="M0s-Pc-DOq" secondAttribute="centerX" id="47J-3G-as5"/>
                             <constraint firstItem="M0s-Pc-DOq" firstAttribute="trailing" secondItem="Olg-r3-o63" secondAttribute="trailing" constant="20" id="AWQ-YN-B2w"/>
+                            <constraint firstItem="NmE-EI-z17" firstAttribute="centerX" secondItem="Olg-r3-o63" secondAttribute="centerX" id="D0B-te-ECl"/>
+                            <constraint firstItem="NmE-EI-z17" firstAttribute="top" secondItem="Olg-r3-o63" secondAttribute="bottom" constant="15" id="EPF-B7-7NK"/>
                             <constraint firstItem="iY4-Bf-MUx" firstAttribute="top" secondItem="M0s-Pc-DOq" secondAttribute="top" constant="50" id="Ok7-Fs-QeM"/>
                             <constraint firstItem="Olg-r3-o63" firstAttribute="centerX" secondItem="M0s-Pc-DOq" secondAttribute="centerX" id="Qyb-EB-7yE"/>
                             <constraint firstItem="Olg-r3-o63" firstAttribute="leading" secondItem="M0s-Pc-DOq" secondAttribute="leading" constant="20" id="T73-w7-Ikv"/>
                             <constraint firstItem="Olg-r3-o63" firstAttribute="top" secondItem="iY4-Bf-MUx" secondAttribute="bottom" constant="30" id="TG6-qO-oMU"/>
-                            <constraint firstItem="M0s-Pc-DOq" firstAttribute="bottom" secondItem="Olg-r3-o63" secondAttribute="bottom" constant="10" id="xM4-8t-b3e"/>
+                            <constraint firstItem="M0s-Pc-DOq" firstAttribute="bottom" secondItem="Olg-r3-o63" secondAttribute="bottom" constant="70" id="xM4-8t-b3e"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="s1g-qP-cMX"/>
                     <connections>
                         <outlet property="issuesView" destination="Olg-r3-o63" id="UUS-Qi-avX"/>
+                        <outlet property="showMealButton" destination="NmE-EI-z17" id="gBn-G2-51A"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mke-Dq-5TV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

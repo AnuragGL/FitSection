@@ -36,6 +36,14 @@ class DietPref: UIViewController, UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var dietSelected = DietType.init(rawValue: dietArray[indexPath.row])
+        let cell = tableView.cellForRow(at: indexPath) as! FoodPrefCell
+        cell.dietType.textColor = themeColor
+        cell.dietType.layer.borderColor = themeColor.cgColor
+    }
+    
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        let cell = tableView.cellForRow(at: indexPath) as! FoodPrefCell
+        cell.dietType.textColor = .black
+        cell.dietType.layer.borderColor = UIColor.black.cgColor
     }
 }

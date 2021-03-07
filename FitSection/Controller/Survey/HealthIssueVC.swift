@@ -10,7 +10,8 @@ import UIKit
 class HealthIssueVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
    
     @IBOutlet weak var issuesView: UICollectionView!
-   
+    @IBOutlet weak var showMealButton: UIButton!
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         var cell = collectionView.dequeueReusableCell(withReuseIdentifier: "allergy", for: indexPath) as! issuesCell
         cell.issueAllergy.text = HealthConditions.allCases[indexPath.row].rawValue
@@ -31,13 +32,21 @@ class HealthIssueVC: UIViewController, UICollectionViewDataSource, UICollectionV
     override func viewDidLoad() {
         super.viewDidLoad()
         issuesView.allowsMultipleSelection = true
+        showMealButton.layer.cornerRadius = 5
+        showMealButton.layer.borderColor = showMealButton.titleLabel?.textColor.cgColor
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func goToMeal(_ sender: Any) {
+        let vc = UIStoryboard.init(name: recipiesStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: recipiesVC) as? RecipiesVC
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("items selected \(HealthConditions.allCases[indexPath.row])")
         let cell = collectionView.cellForItem(at: indexPath) as! issuesCell
-        //cell.contentView.backgroundColor =
+        cell.issueAllergy.textColor = themeColor
+        cell.issueAllergy.layer.borderColor = themeColor.cgColor
     }
 }
 

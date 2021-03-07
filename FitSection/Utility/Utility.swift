@@ -1,5 +1,6 @@
 
 import Foundation
+import UIKit
 
 func readJson(jsonFileName:String) -> Data? {
     var data:Data?
@@ -41,11 +42,4 @@ public enum HealthConditions: String,CaseIterable {
     case fish = "Fish allergy"
 }
 
-//Cow’s Milk
-//Eggs
-//Tree Nuts
-//Peanuts
-//Shellfish
-//Wheat
-//Soy
-//Fish
+let themeColor = UIColor.init(red: 29/255, green: 129/255, blue: 240/255, alpha: 1)

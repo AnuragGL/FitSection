@@ -14,9 +14,10 @@ class AddDetailsTableViewCell: UITableViewCell {
     @IBOutlet weak var starLabel : UILabel!
     @IBOutlet weak var buttonOutlet : UIButton!
     
-    var weightArray = Array(25...130)
-    var heightArray = Array(80...400)
-    var neckArray = Array(14...26)
+    var weightArray = Array(50...300)
+    var heightArray = Array(40...84)
+    var waistArray = Array(20...84)
+    var neckArray = Array(10...26)
     var genderArray = ["Male","Female"]
     var ageArray = Array(10...90)
     
@@ -133,7 +134,7 @@ class AddDetailsTableViewCell: UITableViewCell {
             waistDropDown.width = descriptionTF.frame.width
             waistDropDown.anchorView = descriptionTF
             waistDropDown.direction = .bottom
-            waistDropDown.dataSource = weightArray.map {String($0)}
+            waistDropDown.dataSource = waistArray.map {String($0)}
 
             waistDropDown.selectionAction = {(index: Int, item: String) in
               print("Selected item: \(item) at index: \(index)")

@@ -37,7 +37,7 @@ class HealthIssueVC: UIViewController, UICollectionViewDataSource, UICollectionV
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("items selected \(HealthConditions.allCases[indexPath.row])")
         let cell = collectionView.cellForItem(at: indexPath) as! issuesCell
-        //cell.contentView.backgroundColor = 
+        //cell.contentView.backgroundColor =
     }
 }
 

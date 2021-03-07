@@ -37,6 +37,5 @@ class DietPref: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         var dietSelected = DietType.init(rawValue: dietArray[indexPath.row])
-        
     }
 }
